@@ -1,28 +1,26 @@
-# PlateEdools
-
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/plate_edools`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+# PlateEdools - Test
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Install it yourself as:
 
-```ruby
-gem 'plate_edools'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install plate_edools
+    $ gem install plate_edools --local
 
 ## Usage
 
-TODO: Write usage instructions here
+Enter in your console
+
+    $ irb
+    or
+    $ pry
+
+Call the gem with the require
+
+    require 'plate_edools'
+
+To use just call PlateEdools.plate ("plate")
+
+    PlateEdools.plate("AAA-1234")
 
 ## Development
 
@@ -38,4 +36,3 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/[USERN
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
