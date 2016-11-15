@@ -6,12 +6,12 @@ require 'plate_edools/version'
 Gem::Specification.new do |spec|
   spec.name          = "plate_edools"
   spec.version       = PlateEdools::VERSION
-  spec.authors       = ["TODO: Write your name"]
+  spec.authors       = ["Antonio Carlos Nogueira Junior"]
   spec.email         = ["nog.junior84@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{vehicle license plate.}
+  spec.description   = %q{A simple gem to validate a vehicle license plate.}
+  spec.homepage      = "https://github.com/acnjr2010/plate_edools"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
@@ -29,5 +29,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.12"
   spec.add_development_dependency "rake", "~> 10.0"
-  spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_development_dependency "rspec"
 end
