@@ -2,13 +2,9 @@
 require 'spec_helper'
 
 describe PlateEdools do
-  let(:plate_valid) { "bwx-3081" }
+  let(:plate_valid) { "aaa-3081" }
   let(:plate_invalid) { "bwxp-1524" }
   let(:plate_blank) { "" }
-
-  it "when a validate plate" do
-    expect(PlateEdools.plate(plate_valid)).to be true
-  end
 
   it "when a invalid plate" do
     expect(PlateEdools.plate(plate_invalid)).to be false
@@ -20,5 +16,9 @@ describe PlateEdools do
 
   it 'has a version number' do
     expect(PlateEdools::VERSION).not_to be nil
+  end
+
+  it "when a validate plate" do
+    expect(PlateEdools.plate(plate_valid)).to be true
   end
 end
